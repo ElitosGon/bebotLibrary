@@ -3,6 +3,7 @@ module.exports = {
 		// Language
 		textAnalytics: require('./lib/microsoft/language/textAnalytics'),
 		bingSpellCheck: require('./lib/microsoft/language/bingSpellCheck'),
+		textTranslate: require('./lib/microsoft/language/textTranslate'),
 	}
 }
 
