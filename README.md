@@ -45,6 +45,10 @@ textAnalitycsObject.sentiment(body, null, function(err, data){
     5. To be implemented in the future (getLanguagesForSpeak, speak, detect, detectArray, addTranslation, addTranslationArray, breakSentences, getTranslations, getTranslationsArray)
 - Bing Search Web API (Microsoft - Search):
     1. search: function(headers__, parameters__, callback);
+- Bing Search News API (Microsoft - Search):
+    1. categoryNews: function(headers__, parameters__, callback);
+    2. search: function(headers__, parameters__, callback);
+    3. trendingTopics: function(headers__, callback);
     
 
 ### Note: For each method there is a function to build the body, header and parameters.
