@@ -37,7 +37,12 @@ textAnalitycsObject.sentiment(body, null, function(err, data){
 - Bing Spell Check API (Microsoft):
 	1. getSpellCheck: function(headers__, parameters__, callback);
 	2. postSpellCheck: function(body__, headers__, parameters__, callback);
-
+- Text Translate API (Microsoft):
+    1. translation: function(headers__,parameters__, callback);
+    2. multiTranslation: function(body__, headers__, parameters__, callback);
+    3. getLanguageNames: function(body__, headers__, parameters__, callback);
+    4. getLanguageForTranslate: function(headers__, parameters__, callback);
+    5. To be implemented in the future (getLanguagesForSpeak, speak, detect, detectArray, addTranslation, addTranslationArray, breakSentences, getTranslations, getTranslationsArray)
 
 ### Note: For each method there is a function to build the body, header and parameters.
 for example: 
