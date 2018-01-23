@@ -42,7 +42,8 @@ textAnalitycsObject.sentiment(body, null, function(err, data){
     2. multiTranslation: function(body__, headers__, parameters__, callback);
     3. getLanguageNames: function(body__, headers__, parameters__, callback);
     4. getLanguageForTranslate: function(headers__, parameters__, callback);
-    5. To be implemented in the future (getLanguagesForSpeak, speak, detect, detectArray, addTranslation, addTranslationArray, breakSentences, getTranslations, getTranslationsArray)
+    5. detect: function(headers__, parameters__, callback);
+    6. To be implemented in the future (getLanguagesForSpeak, speak, detectArray, addTranslation, addTranslationArray, breakSentences, getTranslations, getTranslationsArray)
 - Bing Search Web API (Microsoft - Search):
     1. search: function(headers__, parameters__, callback);
 - Bing Search News API (Microsoft - Search):
