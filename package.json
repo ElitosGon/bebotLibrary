@@ -1,6 +1,6 @@
 {
   "name": "bebot-library",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Allows you to connect cognitive services from different providers with your Node js application (Chatbot)",
   "main": "index.js",
   "scripts": {
