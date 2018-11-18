@@ -74,3 +74,39 @@ for example:
         }
     },
 ```
+
+## Collaborate with the growth of BeBot Library
+- For the creation of a new provider, we recommend integrating this in our index. 
+for example: 
+```
+module.exports = {
+	microsoft: {
+		...
+	},
+	ibmwatson: {
+		...
+	}, ...
+}
+
+```
+- Similarly if you want to add a new service. You must include the reference to the module where the interface is available.
+for example: 
+```
+module.exports = {
+	microsoft: {
+		// Language
+		textAnalytics: require('./lib/microsoft/language/textAnalytics'),
+		...
+	},
+	ibmwatson: {
+		// Language
+		ToneAnalyzer: require('./lib/ibmwatson/language/ToneAnalyzer'),
+		...
+	},
+}
+```
+- Then they must implement the interface for the service considering the following:
+1) credentials management.
+2) completion of API query.
+3) If necessary, you should define components of the query as header or body.
+4) Include the description of the query result.
